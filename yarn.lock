@@ -8752,6 +8752,7 @@ __metadata:
     "@strapi/icons": "npm:1.13.0"
     "@strapi/pack-up": "npm:4.15.4"
     "@strapi/permissions": "npm:4.15.4"
+    "@strapi/plugin-content-manager": "npm:4.15.4"
     "@strapi/provider-audit-logs-local": "npm:4.15.4"
     "@strapi/strapi": "npm:4.15.4"
     "@strapi/types": "npm:4.15.4"
