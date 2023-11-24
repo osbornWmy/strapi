@@ -8,8 +8,8 @@ import take from 'lodash/take';
 import PropTypes from 'prop-types';
 import { useIntl } from 'react-intl';
 
-import { useContentTypeLayout } from '../../hooks';
-import { getFieldName } from '../../utils';
+import { useContentTypeLayout } from '../../hooks/useContentTypeLayout';
+import { getFieldName } from '../../utils/fields';
 import { BlocksInput } from '../BlocksInput/BlocksInput';
 import { InputUID } from '../InputUID';
 import { RelationInputDataManager } from '../RelationInputDataManager';

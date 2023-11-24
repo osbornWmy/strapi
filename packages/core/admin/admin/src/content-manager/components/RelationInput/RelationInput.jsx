@@ -18,7 +18,7 @@ import PropTypes from 'prop-types';
 import { FixedSizeList as List } from 'react-window';
 import styled from 'styled-components';
 
-import { usePrev } from '../../hooks';
+import { usePrev } from '../../hooks/usePrev';
 
 import { Option } from './components/Option';
 import { RelationItem } from './components/RelationItem';

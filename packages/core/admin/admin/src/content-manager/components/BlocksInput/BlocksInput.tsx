@@ -4,7 +4,7 @@ import { Box, Flex, Typography } from '@strapi/design-system';
 import { type MessageDescriptor, useIntl } from 'react-intl';
 import styled from 'styled-components';
 
-// @ts-expect-error TODO convert to typescript
+// @ts-expect-error TODO: convert to typescript
 import { Hint } from '../Hint';
 
 import { BlocksEditor } from './BlocksEditor';

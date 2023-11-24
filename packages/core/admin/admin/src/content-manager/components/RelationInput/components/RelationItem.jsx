@@ -7,7 +7,8 @@ import { getEmptyImage } from 'react-dnd-html5-backend';
 import styled from 'styled-components';
 
 import { useDragAndDrop } from '../../../hooks/useDragAndDrop';
-import { composeRefs, ItemTypes } from '../../../utils';
+import { ItemTypes } from '../../../utils/dragAndDrop';
+import { composeRefs } from '../../../utils/refs';
 import { RELATION_GUTTER } from '../constants';
 
 export const FlexWrapper = styled(Flex)`
